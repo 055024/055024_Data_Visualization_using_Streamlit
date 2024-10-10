@@ -46,7 +46,7 @@ category_filter = st.sidebar.multiselect("Select Category", options=my_sample['C
 
 # Apply filters
 filtered_data = my_sample[
-                          # (my_sample['Date'].dt.year.isin(selected_years))&
+                          (my_sample['Date'].dt.year.isin(selected_years))&
                           (my_sample['Category'].isin(category_filter)) 
                          ]
 
