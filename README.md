@@ -1,9 +1,9 @@
-# Streamlit Dahboard link : https://055024datavisualizationusingapp-6caomr2cuahhbnapneupuh.streamlit.app/
+## Streamlit Dahboard link : https://055024datavisualizationusingapp-6caomr2cuahhbnapneupuh.streamlit.app/
 
-# Trade Flow Efficiency Analysis
+# Global Trade Analysis Dashboard
 
 ## Project Overview
-This project analyzes **trade flow efficiency** by examining **supplier behavior**, **payment terms**, and **order timing patterns**. The study uncovers key insights into **trade dynamics**, **frequently traded goods**, and **seasonal or regional variations** to provide actionable insights to optimize global trade processes.
+This project analyzes **global trade flow efficiency** by examining **supplier behavior**, **payment terms**, and **order timing patterns**. The study uncovers key insights into **trade dynamics**, **frequently traded goods**, and **seasonal or regional variations** to provide actionable insights to optimize global trade processes.
 
 ## Problem Statement
 This project aims to **understand the drivers of trade flow efficiency** through the analysis of various trade components such as supplier behavior, payment terms, and order timing. This study aims to identify key trends in international trade, uncover trade flow dynamics, and assess frequently traded goods. Additionally, it highlights seasonal and regional variations to derive actionable insights for optimizing trade operations.
@@ -25,7 +25,6 @@ The dataset includes records of imports and exports across various countries, de
 - **Payment Terms**
 - **Supplier and Buyer Information**
 - **Year and Month** of transactions
-# Global Trade Analysis Dashboard
 
 ## **Overview**
 This dashboard provides an in-depth analysis of global trade trends between 2019 and 2024, focusing on imports, exports, shipping methods, suppliers, and other essential metrics. The data is visualized through various charts, allowing for an interactive exploration of trade patterns and performance across multiple dimensions.
