@@ -19,7 +19,7 @@ my_df = pd.read_csv("Imports_Exports_Dataset.csv",index_col="Transaction_ID")
 # A Unique Sample of 3001 Records 
 my_sample = pd.DataFrame.sample(my_df, n=3001, random_state=55024 ,ignore_index=False)
 my_sample['Total_Value'] = round(my_sample['Value']*my_sample['Quantity'],0)
-st.title("TRADE ANALYSIS")
+st.title("GLOBAL TRADE ANALYSIS")
 st.markdown("---")
 st.subheader("Few records of Sample Data ")
 st.write(my_sample.head(n=5))
