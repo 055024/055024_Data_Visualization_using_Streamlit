@@ -63,7 +63,7 @@ st.plotly_chart(fig_sunburst)
 
 # 2. Top 10 Countries with Maximum Export Sales Profits - Treemap
 export_data = filtered_data[filtered_data['Import_Export'] == 'Export']
-trade_volume_country = export_data.groupby('Country')[['Value']].sum().sort_values(by='Value', ascending=False).head(10).reset_index()
+trade_volume_country = export_data.groupby('Country')[['Total_Value']].sum().sort_values(by='Total_Value', ascending=False).head(10).reset_index()
 fig_treemap_country = px.treemap(trade_volume_country, path=['Country'], values='Total_Value', title="Top 10 Countries with Maximum Export Sales Profits")
 st.plotly_chart(fig_treemap_country)
 
